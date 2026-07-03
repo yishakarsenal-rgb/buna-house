@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Buna House — Modern Ethiopian Cuisine</title>
+  <meta name="description" content="Buna House — A modern take on traditional Ethiopian cuisine. Coffee, culture, and community in the heart of the city." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- 3D Background Canvas -->
+  <canvas id="bg-canvas"></canvas>
+
+  <!-- Loading screen -->
+  <div id="loader">
+    <div class="loader-inner">
+      <div class="coffee-bean"></div>
+      <p>Brewing the experience…</p>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="nav-logo">
+      <span class="logo-mark">☕</span>
+      <span class="logo-text">YISHAK Buna<span class="accent">House</span></span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#story">Story</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#reserve">Reserve</a></li>
+    </ul>
+    <a href="#reserve" class="nav-cta">Book a Table</a>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <span class="eyebrow">Est. 2024 · Addis Ababa Tradition</span>
+      <h1 class="hero-title">
+        Where <span class="accent">Buna</span> Meets
+        <br/>Modern Soul
+      </h1>
+      <p class="hero-sub">
+        Slow-cooked stews, hand-pulled injera, and a coffee ceremony reimagined for the contemporary table.
+      </p>
+      <div class="hero-ctas">
+        <a href="#menu" class="btn btn-primary">Explore the Menu</a>
+        <a href="#reserve" class="btn btn-ghost">Reserve Tonight</a>
+      </div>
+      <div class="hero-stats">
+        <div><strong>4.9★</strong><span>Google · 2.3k</span></div>
+        <div><strong>15+</strong><span>Signature Dishes</span></div>
+        <div><strong>3</strong><span>City Locations</span></div>
+      </div>
+    </div>
+    <div class="scroll-hint">Scroll ↓</div>
+  </section>
+
+  <!-- MENU -->
+  <section id="menu" class="section">
+    <div class="section-head">
+      <span class="eyebrow">The Menu</span>
+      <h2>Signature Dishes</h2>
+      <p>Hand-crafted, family recipes, locally sourced.</p>
+    </div>
+    <div class="menu-grid">
+      <article class="dish-card" data-tilt>
+        <div class="dish-img" style="background: linear-gradient(135deg,#c9302c,#ff6b5b);">🍲</div>
+        <div class="dish-body">
+          <h3>Doro Wot</h3>
+          <p>Slow-simmered chicken stew with berbere spice and hard-boiled egg.</p>
+          <span class="price">$24</span>
+        </div>
+      </article>
+      <article class="dish-card" data-tilt>
+        <div class="dish-img" style="background: linear-gradient(135deg,#8b2c1f,#d4533a);">🥩</div>
+        <div class="dish-body">
+          <h3>Kitfo</h3>
+          <p>Minced lean beef seasoned with mitmita and herb-infused butter.</p>
+          <span class="price">$26</span>
+        </div>
+      </article>
+      <article class="dish-card" data-tilt>
+        <div class="dish-img" style="background: linear-gradient(135deg,#e8a93a,#f4d27a);">🥗</div>
+        <div class="dish-body">
+          <h3>Beyaynetu</h3>
+          <p>A vibrant vegetarian platter of lentils, greens, and stews.</p>
+          <span class="price">$20</span>
+        </div>
+      </article>
+      <article class="dish-card" data-tilt>
+        <div class="dish-img" style="background: linear-gradient(135deg,#5a2a0c,#a0522d);">🍖</div>
+        <div class="dish-body">
+          <h3>Tibs</h3>
+          <p>Sautéed tender beef with rosemary, garlic, and roasted peppers.</p>
+          <span class="price">$28</span>
+        </div>
+      </article>
+      <article class="dish-card" data-tilt>
+        <div class="dish-img" style="background: linear-gradient(135deg,#d4a14a,#f0c674);">🫘</div>
+        <div class="dish-body">
+          <h3>Shiro</h3>
+          <p>Creamy chickpea flour stew with garlic and ginger.</p>
+          <span class="price">$18</span>
+        </div>
+      </article>
+      <article class="dish-card" data-tilt>
+        <div class="dish-img" style="background: linear-gradient(135deg,#3a1f0d,#6b3a1a);">☕</div>
+        <div class="dish-body">
+          <h3>Coffee Ceremony</h3>
+          <p>Traditional Buna — roasted, brewed, served with popcorn.</p>
+          <span class="price">$12</span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- STORY -->
+  <section id="story" class="section story">
+    <div class="story-grid">
+      <div class="story-visual">
+        <div class="floating-card">
+          <span class="big-emoji">🇪🇹</span>
+          <p>"Buna" means coffee in Amharic — and at Buna House, everything begins with a shared cup.</p>
+        </div>
+      </div>
+      <div class="story-text">
+        <span class="eyebrow">Our Story</span>
+        <h2>A thousand years of flavor, one table at a time.</h2>
+        <p>Born in Addis Ababa and rooted in the traditions of family gatherings, Buna House brings the warmth of Ethiopian hospitality to the modern city. Our chefs honor the recipes of our grandmothers — slow-cooked, spice-layered, served with love on freshly made injera.</p>
+        <ul class="story-list">
+          <li>✓ Family recipes from the highlands</li>
+          <li>✓ Ethically sourced coffee from Yirgacheffe</li>
+          <li>✓ Hand-pulled injera, made daily</li>
+          <li>✓ Vegetarian & vegan friendly</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="section">
+    <div class="section-head">
+      <span class="eyebrow">Gallery</span>
+      <h2>Moments at Buna House</h2>
+    </div>
+    <div class="gallery-grid">
+      <div class="g-item g1" style="background: linear-gradient(135deg,#c9302c,#5a1a14);">🍲 Doro Wot</div>
+      <div class="g-item g2" style="background: linear-gradient(135deg,#e8a93a,#8b2c1f);">☕ Ceremony</div>
+      <div class="g-item g3" style="background: linear-gradient(135deg,#3a1f0d,#a0522d);">🥩 Kitfo</div>
+      <div class="g-item g4" style="background: linear-gradient(135deg,#5a2a0c,#e8a93a);">🥗 Beyaynetu</div>
+      <div class="g-item g5" style="background: linear-gradient(135deg,#8b2c1f,#f4d27a);">🌶️ Spices</div>
+      <div class="g-item g6" style="background: linear-gradient(135deg,#d4a14a,#3a1f0d);">🍞 Injera</div>
+    </div>
+  </section>
+
+  <!-- RESERVE -->
+  <section id="reserve" class="section reserve">
+    <div class="reserve-card">
+      <span class="eyebrow">Reservations</span>
+      <h2>Save your seat at the table.</h2>
+      <p>Open Tuesday – Sunday · 5pm – 11pm</p>
+      <form class="reserve-form" onsubmit="event.preventDefault(); this.querySelector('button').textContent='✓ Reserved — see you soon!';">
+        <input type="text" placeholder="Your name" required />
+        <input type="email" placeholder="Email" required />
+        <input type="date" required />
+        <input type="time" required />
+        <select>
+          <option>2 guests</option>
+          <option>3 guests</option>
+          <option>4 guests</option>
+          <option>5+ guests</option>
+        </select>
+        <button type="submit" class="btn btn-primary">Reserve Now</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-grid">
+      <div>
+        <h3 class="logo-text">Buna<span class="accent">House</span></h3>
+        <p>Modern Ethiopian cuisine, rooted in tradition.</p>
+      </div>
+      <div>
+        <h4>Visit Us</h4>
+        <p>123 Bole Road<br/>Addis Ababa · Ethiopia</p>
+        <p>+251 11 234 5678</p>
+      </div>
+      <div>
+        <h4>Hours</h4>
+        <p>Tue – Sun<br/>5:00 PM – 11:00 PM</p>
+        <p>Closed Mondays</p>
+      </div>
+      <div>
+        <h4>Follow</h4>
+        <p>@bunahouse</p>
+        <p>Instagram · TikTok</p>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2024 Buna House — Made with ☕ and love.</div>
+  </footer>
+
+  <!-- Three.js -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
