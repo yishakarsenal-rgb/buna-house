@@ -59,7 +59,6 @@
   });
   const particles = new THREE.Points(pGeo, pMat);
   scene.add(particles);
-  // floating coffee bean shapes
   const beans = [];
   const beanGeo = new THREE.SphereGeometry(0.25, 16, 16);
   beanGeo.scale(1, 0.6, 0.8);
