@@ -1,5 +1,4 @@
 (() => {
-  // 3d background
   const canvas = document.getElementById("bg-canvas");
   const scene = new THREE.Scene();
   scene.fog = new THREE.Fog(0x0d0705, 8, 25);
