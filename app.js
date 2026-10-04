@@ -119,8 +119,6 @@
     mouseX = e.clientX / window.innerWidth - 0.5;
     mouseY = e.clientY / window.innerHeight - 0.5;
   });
-
-  // scroll based camera movement
   let scrollY = 0;
   window.addEventListener("scroll", () => {
     scrollY = window.scrollY;
