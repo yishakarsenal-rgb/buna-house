@@ -88,7 +88,6 @@
     beans.push(bean);
   }
 
-  // big central glowing sphere
   const orbGeo = new THREE.IcosahedronGeometry(2, 2);
   const orbMat = new THREE.MeshStandardMaterial({
     color: 0xe8a93a,
