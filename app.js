@@ -25,7 +25,6 @@
   const rimLight = new THREE.PointLight(0xc9302c, 2, 20);
   rimLight.position.set(-5, -3, 3);
   scene.add(rimLight);
-  // particle field
   const particleCount = 800;
   const positions = new Float32Array(particleCount * 3);
   const colors = new Float32Array(particleCount * 3);
