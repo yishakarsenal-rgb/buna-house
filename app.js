@@ -17,7 +17,6 @@
   renderer.setSize(window.innerWidth, window.innerHeight);
   renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
   renderer.setClearColor(0x0d0705, 1);
-  // lights
   const ambient = new THREE.AmbientLight(0xfff0d0, 0.5);
   scene.add(ambient);
   const keyLight = new THREE.DirectionalLight(0xe8a93a, 1.2);
