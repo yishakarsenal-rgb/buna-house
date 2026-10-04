@@ -110,8 +110,6 @@
   const innerOrb = new THREE.Mesh(innerOrbGeo, innerOrbMat);
   innerOrb.position.copy(orb.position);
   scene.add(innerOrb);
-
-  // mouse parallax
   let mouseX = 0,
     mouseY = 0;
   let targetX = 0,
