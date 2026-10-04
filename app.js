@@ -101,7 +101,6 @@
   orb.position.set(4, 0, -5);
   scene.add(orb);
 
-  // inner solid orb
   const innerOrbGeo = new THREE.SphereGeometry(1.3, 32, 32);
   const innerOrbMat = new THREE.MeshStandardMaterial({
     color: 0xc9302c,
