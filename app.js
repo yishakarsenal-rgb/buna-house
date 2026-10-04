@@ -87,7 +87,6 @@
     scene.add(bean);
     beans.push(bean);
   }
-
   const orbGeo = new THREE.IcosahedronGeometry(2, 2);
   const orbMat = new THREE.MeshStandardMaterial({
     color: 0xe8a93a,
@@ -100,7 +99,6 @@
   const orb = new THREE.Mesh(orbGeo, orbMat);
   orb.position.set(4, 0, -5);
   scene.add(orb);
-
   const innerOrbGeo = new THREE.SphereGeometry(1.3, 32, 32);
   const innerOrbMat = new THREE.MeshStandardMaterial({
     color: 0xc9302c,
