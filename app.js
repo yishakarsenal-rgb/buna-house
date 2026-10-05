@@ -135,8 +135,6 @@
 
     particles.rotation.y = t * 0.05;
     particles.rotation.x = Math.sin(t * 0.1) * 0.1;
-
-    // beans float
     beans.forEach((bean) => {
       bean.position.y =
         bean.userData.baseY +
