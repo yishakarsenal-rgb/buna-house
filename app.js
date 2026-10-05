@@ -133,7 +133,6 @@
     camera.position.y += (targetY + scrollY * 0.001 - camera.position.y) * 0.05;
     camera.lookAt(0, 0, 0);
 
-    // particle swirl
     particles.rotation.y = t * 0.05;
     particles.rotation.x = Math.sin(t * 0.1) * 0.1;
 
