@@ -143,8 +143,6 @@
       bean.rotation.x += bean.userData.rotSpeed;
       bean.rotation.y += bean.userData.rotSpeed * 0.5;
     });
-
-    // orb pulse
     const pulse = 1 + Math.sin(t * 1.2) * 0.08;
     orb.scale.set(pulse, pulse, pulse);
     orb.rotation.y = t * 0.2;
