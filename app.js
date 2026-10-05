@@ -149,8 +149,6 @@
     orb.rotation.x = t * 0.1;
     innerOrb.rotation.y = -t * 0.3;
     innerOrb.scale.set(pulse, pulse, pulse);
-
-    // rim light orbit
     rimLight.position.x = Math.cos(t * 0.5) * 6;
     rimLight.position.z = Math.sin(t * 0.5) * 6;
 
