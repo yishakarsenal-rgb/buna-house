@@ -180,8 +180,6 @@
       card.style.transform = "translateY(0) rotateX(0) rotateY(0)";
     });
   });
-
-  // smooth nav active state
   const sections = document.querySelectorAll("section[id]");
   const navLinks = document.querySelectorAll(".nav-links a");
   window.addEventListener("scroll", () => {
