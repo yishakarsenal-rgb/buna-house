@@ -165,8 +165,6 @@
       document.getElementById("loader").classList.add("hidden");
     }, 600);
   });
-
-  // tilt on dish cards
   document.querySelectorAll("[data-tilt]").forEach((card) => {
     card.addEventListener("mousemove", (e) => {
       const rect = card.getBoundingClientRect();
