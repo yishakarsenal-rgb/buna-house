@@ -123,10 +123,7 @@
   window.addEventListener("scroll", () => {
     scrollY = window.scrollY;
   });
-
-  // animation loop
   const clock = new THREE.Clock();
-
   function animate() {
     requestAnimationFrame(animate);
     const t = clock.getElapsedTime();
