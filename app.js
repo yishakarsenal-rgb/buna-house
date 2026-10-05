@@ -127,8 +127,6 @@
   function animate() {
     requestAnimationFrame(animate);
     const t = clock.getElapsedTime();
-
-    // smooth camera follow
     targetX = mouseX * 0.8;
     targetY = -mouseY * 0.5;
     camera.position.x += (targetX - camera.position.x) * 0.05;
