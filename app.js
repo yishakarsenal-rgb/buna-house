@@ -160,8 +160,6 @@
     camera.updateProjectionMatrix();
     renderer.setSize(window.innerWidth, window.innerHeight);
   });
-
-  // hide loader
   window.addEventListener("load", () => {
     setTimeout(() => {
       document.getElementById("loader").classList.add("hidden");
