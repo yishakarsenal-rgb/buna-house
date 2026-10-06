@@ -42,7 +42,6 @@ body {
   pointer-events: none;
 }
 
-/* LOADER */
 #loader {
   position: fixed;
   inset: 0;
