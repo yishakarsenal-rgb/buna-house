@@ -159,7 +159,6 @@ body {
   transform: translateY(-2px);
 }
 
-/* HERO */
 .hero {
   min-height: 100vh;
   display: flex;
