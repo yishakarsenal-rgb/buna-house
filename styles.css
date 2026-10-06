@@ -426,7 +426,6 @@ body {
   color: var(--text);
 }
 
-/* GALLERY */
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
