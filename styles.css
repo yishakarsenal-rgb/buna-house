@@ -540,7 +540,6 @@ body {
   border-top: 1px solid var(--border);
 }
 
-/* RESPONSIVE */
 @media (max-width: 768px) {
   .nav-links {
     display: none;
