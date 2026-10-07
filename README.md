@@ -18,16 +18,3 @@ buna-house/
 ├── styles.css all styling
 ├── app.js 3D scene + interactions
 └── README.md this file
-
-Local preview
-
-Just open index.html in any modern browser, or run:
-bash
-Option 1: direct
-open index.html macOS
-xdg-open index.html Linux
-start index.html Windows
-
-Option 2: local server (recommended for the 3D scene)
-python3 -m http.server 8000
-then visit http://localhost:8000
